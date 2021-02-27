@@ -1,1 +1,42 @@
-<h1> hello Word</h1>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+		<h1> Teste ajax </h1>
+        </div>
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript">
+        $.get('https://www.cloudflare.com/cdn-cgi/trace', function(data) {
+    console.log(data)
+})
+
+var options = {
+  enableHighAccuracy: true,
+  timeout: 5000,
+  maximumAge: 0
+};
+
+function success(pos) {
+  var crd = pos.coords;
+
+  console.log('Sua posição atual é:');
+  console.log('Latitude : ' + crd.latitude);
+  console.log('Longitude: ' + crd.longitude);
+  console.log('Mais ou menos ' + crd.accuracy + ' metros.');
+};
+
+function error(err) {
+  console.warn('ERROR(' + err.code + '): ' + err.message);
+};
+
+navigator.geolocation.getCurrentPosition(success, error, options);
+
+    </script>
+</body>
+</html>
