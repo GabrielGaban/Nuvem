@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Cloud Computing Blog</title>
+        <link>https://github.com/GabrielGaban/Nuvem/blog</link>
+        <description>The best place to stay up-to-date with the latest Cloud Computing news and events.</description>
+        <lastBuildDate>Tue, 16 Feb 2021 06:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>Cloud Computing Blog</title>
+            <url>https://github.com/GabrielGaban/Nuvem/img/favicon.ico</url>
+            <link>https://github.com/GabrielGaban/Nuvem/blog</link>
+        </image>
+        <copyright>Copyright © 2021 Gabriel Gaban de Lima</copyright>
+        <item>
+            <title><![CDATA[IaaS como alternativa de infraestrutura]]></title>
+            <link>https://github.com/GabrielGaban/Nuvem/blog/2021/02/16/find-site-cloud.html</link>
+            <guid>https://github.com/GabrielGaban/Nuvem/blog/2021/02/16/find-site-cloud.html</guid>
+            <pubDate>Tue, 16 Feb 2021 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>Serviços de infraestrutura em Nuvem (IaaS) são modelos &quot;self-service&quot; para monitoramento, acesso e administração de infraestruturas de datacenters, tais como computação (virtualizada ou &quot;bare-metal&quot;), armazenamento, networking e s...</p>]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Como os servidores nuvem podem ajudar no home office?]]></title>
+            <link>https://github.com/GabrielGaban/Nuvem/blog/2020/10/21/server-cloud-home.html</link>
+            <guid>https://github.com/GabrielGaban/Nuvem/blog/2020/10/21/server-cloud-home.html</guid>
+            <pubDate>Wed, 21 Oct 2020 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>Com o desenvolvimento das cidades e com metrópoles se tornando cada vez maiores e mais populosas, muitas pessoas procurar o home office como uma forma de trabalhar sem ter que se preocupar com trânsito, valor do combustível, preço da passagem e diver...</p>]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Como implementar a nuvem no meu home office?]]></title>
+            <link>https://github.com/GabrielGaban/Nuvem/blog/2020/09/27/implements-home-cloud.html</link>
+            <guid>https://github.com/GabrielGaban/Nuvem/blog/2020/09/27/implements-home-cloud.html</guid>
+            <pubDate>Sun, 27 Sep 2020 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>Grande parte das ferramentas que são usadas na rotina comum já se tratam de soluções baseadas em nuvem, então a transição acaba sendo muito mais simples. Grande parte dos sistemas de comunicação, como Slack, Discord Skype e muitos mais já fazem essa ...</p>]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Porque implementar a nuvem na minha empresa?]]></title>
+            <link>https://github.com/GabrielGaban/Nuvem/blog/2020/09/01/implements-cloud-emp.html</link>
+            <guid>https://github.com/GabrielGaban/Nuvem/blog/2020/09/01/implements-cloud-emp.html</guid>
+            <pubDate>Tue, 01 Sep 2020 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>O gerenciamento de operações por meio da nuvem oferece uma gama de vantagens dentro do ambiente de trabalho. O que antes foi por muitos considerado apenas uma tendência passageira, hoje é uma realidade dentro do mercado e se tornou parte fundamental ...</p>]]></description>
+        </item>
+    </channel>
+</rss>
